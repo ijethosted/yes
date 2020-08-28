@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>corrensafree_settings</name>
+			<sql><![CDATA[CREATE TABLE `corrensafree_settings` (
+				`pid` int(11) NULL DEFAULT NULL,
+				`enable` int(3) NULL DEFAULT NULL
+				)
+        ]]></sql>
+		</table>
+		<table>
+			<name>corrensafree_settings</name>
+			<sql><![CDATA[INSERT INTO `corrensafree_settings` (`pid`) VALUES ('0')]]></sql>
+		</table>
+	</tables>
+</schema>
